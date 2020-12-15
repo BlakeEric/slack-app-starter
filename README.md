@@ -5,6 +5,8 @@ Boilerplate code for a Slack app in Node using the [Bolt](https://slack.dev/bolt
 ### Local Usage
 * Create a [Slack app](https://api.slack.com/apps/new) if you don't already have one, or select an existing app you've created. 
 * Find and copy your app's signing secret in the credentials section of the app settings.
-* Create a .env file in your project's root directory and paste your signing secret as follows: `SLACK_SIGNING_SECRET=[paste_your_secret_here]`
+* Create a .env file in your project's root directory and paste your signing secret as follows: `SLACK_SIGNING_SECRET=paste_your_secret_here`
+* Find and copy your app's bot token in the OAuth & Permissions section of the app settings.
+* Paste your bot token into your .env file as follows: `SLACK_BOT_TOKEN=paste_your_token_here`
 * run `npm install`
 * run `npm run dev`
